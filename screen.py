@@ -1,6 +1,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets #, QtWebEngineWidgets
 from PyQt5.QtWebEngineWidgets import QWebEngineView as QWebView,QWebEnginePage as QWebPage
 from PyQt5.QtWebEngineWidgets import QWebEngineSettings as QWebSettings
+from PyQt5.QtWebEngineWidgets import *
 from PyQt5.QtWidgets import QApplication, QMessageBox, QFileDialog
 import sys
 import os
@@ -167,7 +168,7 @@ class ConverterApp(QtWidgets.QMainWindow, helloworld.Ui_MainWindow):
             folium.Marker([latitude, longitude]).add_to(m)
             data = io.BytesIO()
             m.save(data, close_file=False)
-            web_engine = QtWebEngineWidgets.QWebEngineView()
+            web_engine = QWebEngineView() #QtWebEngineWidgets.QWebEngineView()
             self.web_engine.setHtml(data.getvalue().decode())
             #self.web_engine.load(QtCore.QUrl(googleurl))
         else:
