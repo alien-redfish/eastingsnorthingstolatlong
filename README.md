@@ -8,7 +8,7 @@ The second tab allows the user to find a .csv file on their local machine, choos
 
 # requirements
 
-As well as Python3 the following are needed to be installed:
+As well as Python3 and PyQt5 the following are needed to be installed:
 
 sudo pip3 install OSGridConverter
 
