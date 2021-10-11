@@ -11,5 +11,7 @@ The second tab allows the user to find a .csv file on their local machine, choos
 As well as Python3 the following are needed to be installed:
 
 sudo pip3 install OSGridConverter
+
 sudo pip3 install PyQtWebEngine
+
 sudo pip3 install folium
