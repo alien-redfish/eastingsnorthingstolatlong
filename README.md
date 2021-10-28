@@ -1,5 +1,7 @@
 # mapping
 
+This has only been tested on Linux.
+
 A Python3 program to run a GUI to convert eastings and northings to latitude and longitude.
 
 The first tab allows for the user to input an eastings and northing, upon convert this is turned into a latitude and longitude and a Google Map link is provided. There is also a button to Map the latitude and longitude using open street maps. This is displayed in the tab.
