@@ -22,5 +22,6 @@ sudo pip3 install folium
 
 If you get an error about sip then please run sudo pip3 install PyQt5-sip -U
 
-#To run
+# To run
+
 cd to extracted directory and run python3 screen.py
