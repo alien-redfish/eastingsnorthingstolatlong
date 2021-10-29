@@ -12,8 +12,15 @@ The second tab allows the user to find a .csv file on their local machine, choos
 
 As well as Python3 and PyQt5 the following are needed to be installed:
 
+sudo pip3 install PyQt5
+
 sudo pip3 install OSGridConverter
 
 sudo pip3 install PyQtWebEngine
 
 sudo pip3 install folium
+
+If you get an error about sip then please run sudo pip3 install PyQt5-sip -U
+
+#To run
+cd to extracted directory and run python3 screen.py
