@@ -20,6 +20,8 @@ sudo pip3 install PyQtWebEngine
 
 sudo pip3 install folium
 
+sudo apt install python3-qtpy
+
 If you get an error about sip then please run sudo pip3 install PyQt5-sip -U
 
 # To run
